@@ -10,15 +10,19 @@
 </head>
 <body>
     <div id="root">
-        <header><h1>{{message}}</h1></header>
+        <header></header>
         <main>
             <div class="main-container">
-                
+                <div class="img-container">
+                    <h1>{{message}}</h1>
+                    <img v-bind:src="imgAstronaut" alt="astronaut">
+                </div>
             </div>
         </main>
         <footer>
             <div class="footer-container"></div>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
